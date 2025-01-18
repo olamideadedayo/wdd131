@@ -33,7 +33,6 @@
     text-align: center;
     background-color: #1100FF;
     grid-column: 1 / 10;
-    border: 2px solid rgb(2, 2, 2)5, 0, 255;
     color: #ffffff;
   }
   header h1 {
@@ -90,8 +89,8 @@
   
   section h2 {
     text-align: auto;
-    border-top-right-radius: px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: auto;
+    border-top-left-radius: 5px;
     border-bottom: 2px solid rgb(0, 0, 255);
     background-color: blue;
     color: #fff;
@@ -152,7 +151,7 @@
     text-align: left;
     padding: 1rem;
     background-color: transparent;
-    margin: 0 15;
+    margin: 1 15;
   }
   
   .city-info img {
