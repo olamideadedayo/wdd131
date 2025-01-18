@@ -89,9 +89,7 @@
   
   section h2 {
     text-align: auto;
-    border-top-right-radius: auto;
     border-top-left-radius: 5px;
-    border-bottom: 2px solid rgb(0, 0, 255);
     background-color: blue;
     color: #fff;
   }
@@ -151,7 +149,7 @@
     text-align: left;
     padding: 1rem;
     background-color: transparent;
-    margin: 15;}
+  }
   
   .city-info img {
     max-width: 100%;
