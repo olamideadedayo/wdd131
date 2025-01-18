@@ -172,7 +172,7 @@
   }
   
   .webdev-card ul li a:hover {
-    filter: drop-shadow(2px 2px 2px #d1ff02);
+    filter: drop-shadow(2px 2px 2px #cbf802);
     background-color: #3f4f5a;
     border-radius: 15px;
     color: #fff;
