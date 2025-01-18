@@ -18,11 +18,11 @@
     font-size: 1.5rem;
     padding-top: 1rem;
     margin: 1rem;
-    color: #008044;
+    color: #050146;
     text-align: center;
   }
   header {
-    background-color: green;
+    background-color: rgb(48, 0, 138);
   }
   
   nav {
