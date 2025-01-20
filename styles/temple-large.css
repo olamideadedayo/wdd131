@@ -1,8 +1,7 @@
-/* large view navigation ************************************/
+
 @media screen and (min-width: 37.5em) {
     #menu {
       display: none;
-      /* hide hamburger button */
     }
     h2 {
       font-size: 4rem;
