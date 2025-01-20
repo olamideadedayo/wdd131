@@ -4,7 +4,6 @@ const year = document.getElementById("year");
 const lastModified = document.getElementById("lastModified");
 const today = new Date();
 const lastModifiedDate = new Date(document.lastModified);
-year.innerHTML = `${today.getFullYear()}`;
 lastModified.innerHTML = `Last Modified On: ${lastModifiedDate}`;
 lastModified.style.color = "white";
 

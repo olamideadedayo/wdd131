@@ -9,10 +9,11 @@
     <meta name="description" content="Falana Adedayo Joseph Media query learning activity example page.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="styles/temple.css" rel="stylesheet">
     <link href="styles/temple-large.css" rel="stylesheet">
-    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/temple.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
@@ -31,16 +32,16 @@
         <h2>Home</h2>
         <div class="grid">
             <figure>
-                <img src="images/kirtland_temple.webp" alt="kirtland temple">
+                <img src="images/kirtland_temple.webp"alt="kirtland temple">
                 <figcaption>kirtland temple</figcaption>
             </figure>
             <figure>
-                <img src="images/baton_rouge_temple_lds.webp" alt="Baton Rouge Temple ">
+                <img src="images/baton_rouge_temple_lds.webp"alt="Baton Rouge Temple ">
                 <figcaption>Baton Rouge Temple</figcaption>
             </figure>
             <figure>
-                <img src="images/johannesburg_south_africa_temple.webpp" alt="Johannesburg South Africa Temple">
-                <figcaption>Johannesburg South Africa Temple</figcaption>
+                <img src="images/johannesburg_south_africa_temple.webp" alt="Johannesburg South Africa Temple">
+                <figcaption>Johannesburg S.A Temple</figcaption>
             </figure>
             <figure>
                 <img src="images/cochabamba_bolivia_temple_lds.webp" alt="Cochabamba Bolivia Temple">
@@ -52,10 +53,10 @@
             </figure>
             <figure>
                 <img src="images/buenos_aires_argentina_temple.webp" alt="Buenos Aires Argentina Temple">
-                <figcaption>Buenos Aires Argentina Temple</figcaption>
+                <figcaption>Buenos Aires  Temple</figcaption>
             </figure>
             <figure>
-                <img src="images/bogota_colombia_temple_lds.webp" alt="Bogota Colombia Temple">
+                <img src="images/bogota_colombia_temple_lds.webp"  alt="Bogota Colombia Temple">
                 <figcaption>Bogota Colombia Temple</figcaption>
             </figure>
             <figure>
@@ -69,9 +70,10 @@
         </div>
     </main>
     <footer>
-        <p>&copy;<span id="year"></span>|Falana Adedayo Joseph|Lagos, Nigeria</p>
-        <span id="lastModified"></span>
+        <div class="footer-txt">
+            <p>&copy; <span id="currentyear"></span> ♾Falana Adedayo Joseph♾ Lagos, Nigeria </p>
+            <p id="lastModified"></p>
+    </div>
     </footer>
 </body>
-
 </html>
