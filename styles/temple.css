@@ -31,7 +31,7 @@ nav {
   flex-direction: column;
   color: #fff;
 }
-/* Small View Navigation */
+
 #menu {
   font-size: 1.5rem;
   border: 0;
@@ -64,14 +64,12 @@ nav {
   font-weight: 700;
 }
 
-/* when the button is clicked - the open class is toggled (added/removed) */
 .open a {
   display: block;
 }
 
 .active::before {
   content: "📍";
-  /* just a wayfinding symbol for the user */
 }
 
 main .grid {
