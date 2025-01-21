@@ -4,4 +4,3 @@ const year = document.getElementById("year");
 const lastModified = document.getElementById("lastModified");
 const today = new Date();
 const lastModifiedDate = new Date(document.lastModified);
-
