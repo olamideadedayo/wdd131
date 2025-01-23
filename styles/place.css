@@ -11,8 +11,8 @@
     --light: white;
     --dark: black;
     --icon: url("../images/animated/cloudy-day-2.svg");
-    --large-bg: #fbff13;
-    --data-bg: silver;
+    --large-bg: #b300fa;
+    --data-bg: rgb(173, 173, 173);
   }
   
   body {
@@ -69,6 +69,7 @@
   }
   ul {
     padding: 0;
+    display: inline-flex;
   }
   .weather h2::after {
     content: "";
