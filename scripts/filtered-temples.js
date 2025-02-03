@@ -1,4 +1,3 @@
-
 const hamButton = document.getElementById("menu");
 const nav = document.querySelector(".navigation");
 const year = document.getElementById("year");
@@ -15,6 +14,8 @@ const old = document.querySelector("#old");
 const news = document.querySelector("#new");
 const large = document.querySelector("#large");
 const small = document.querySelector("#small");
+
+console.log('JavaScript file loaded')
 
 const listFilters = [home, old, news, large, small];
 
@@ -138,6 +139,7 @@ hamButton.addEventListener("click", function () {
   hamButton.classList.toggle("open");
 });
 
+reveal
 home.addEventListener("click", () => {
   resetOpts();
   home.classList.toggle("active");

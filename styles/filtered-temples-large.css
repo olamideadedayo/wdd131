@@ -1,0 +1,62 @@
+
+@media screen and (min-width: 37.5em) {
+    #menu {
+      display: none;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    
+    h1 {
+      font-size: 2rem;
+    }
+    a {
+      font-size: 1rem;
+    }
+    body {
+      font-family: "Roboto", sans-serif;
+      color: #000000; 
+      
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav {
+      background-color: transparent;
+      padding: 1rem;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .navigation a {
+      display: block;
+      flex: 1 1 100%;
+      padding: 1rem;
+    }
+    .navigation a:hover {
+      background-color: rgb(71, 255, 71);
+      border-radius: 10px;
+    }
+  
+    .active::before {
+      content: "";
+    }
+    nav .active {
+      color: #ffffff;
+      text-decoration: underline;
+      font-size: 1rem;
+      border-radius: 10px;
+    }
+  
+    main .grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      padding: 2rem;
+      max-width: 100%;
+    }
+    main .stuff {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      padding: 2rem;
+    }
+  }
