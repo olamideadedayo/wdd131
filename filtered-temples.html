@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temple Album</title>
-    <meta name="author" content="Israel Oyeyemi Oyedepo">
-    <meta name="description" content="Israel Oyeyemi Oyedepo Media query learning activity example page.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/filtered-temples.css">
-    <link rel="stylesheet" href="styles/filtered-temples-large.css">
-    <script src="scripts/filtered-temples.js" defer></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temple Album</title>
+        <meta name="author" content="Israel Oyeyemi Oyedepo">
+        <meta name="description" content="Israel Oyeyemi Oyedepo Media query learning activity example page.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="http://olamideadedayo.github.io/wdd131/styles/filtered-temples.css">
+        <link rel="stylesheet" href="http://olamideadedayo.github.io/wdd131/styles/filtered-temples-large.css">
+        <script src="scripts/filteredtemples.js" defer></script>
+    </head>
 
-<body>
-    <header>
-        <h1>Temples Album</h1>
-        <button id="menu" title="Menu Button"></button>
-        <nav class="navigation">
-            <a href="#" title="Home" class="active">Home</a>
-            <a href="#" title="Old">Old</a>
-            <a href="#" title="New">New</a>
-            <a href="#" title="Large">Large</a>
-            <a href="#" title="Small">Small</a>
-        </nav>
-    </header>
-    <main>
-        <h2>Home</h2>
-        <div class="grid">
-          
-        </div>
-    </main>
-    <footer>
-        <div class="footer-txt">
-            <p>&copy; <span id="currentyear"></span> ♾Falana Adedayo Joseph♾Lagos, Nigeria </p>
-            <p id="lastModified"></p>
-    </div>
-    </footer>
-</body>
+    <body>
+        <header>
+            <h1>Temples Album</h1>
+            <button id="menu" title="Menu Button"></button>
+            <nav class="navigation">
+                <!-- You didn't id your nav menus. Use id instead of title -->
+                <a href="#" id="home" class="active">Home</a>
+                <a href="#" id="old">Old</a>
+                <a href="#" id="new">New</a>
+                <a href="#" id="large">Large</a>
+                <a href="#" id="small">Small</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Home</h2>
+            <div class="grid">
+
+            </div>
+        </main>
+        <footer>
+            <div class="footer-txt">
+                <!-- if you press window + . you will be able to select any other emoji aside this boring one. -->
+                <p>&copy; <span id="currentyear"></span> ♾Falana Adedayo Joseph♾Lagos, Nigeria </p>
+                <p id="lastModified"></p>
+            </div>
+        </footer>
+    </body>
+
 </html>
