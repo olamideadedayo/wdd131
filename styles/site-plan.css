@@ -1,0 +1,36 @@
+/* styles.css */
+
+body {
+  font-family: Georgia, serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #4285F4;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section p {
+  margin: 0.5em 0;
+}
+
+footer p {
+  margin: 0;
+}
