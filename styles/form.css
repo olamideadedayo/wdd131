@@ -15,7 +15,7 @@
     flex-direction: column;
     width: clamp(250px, 100%, 450px);
     margin: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   .second-main {
     background: linear-gradient(rgb(9, 255, 0), yellow);
@@ -76,7 +76,7 @@
   }
   /* TARGET THE REQUIRED CLASES */
   .review-form input:required {
-    border-left: solid 3px red;
+    border-left: solid 3px rgb(0, 132, 255);
   }
   .review-form input:required:valid {
     border-left: solid 3px green;
