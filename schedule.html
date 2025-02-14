@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule a Service - Refrigerator Services</title>
+    <link rel="stylesheet" href="styles/schedule.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="bancool_engr.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="schedule.html" class="active">Schedule a Service</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="schedule">
+            <h1>Schedule a Service</h1>
+            <p>Book an appointment with our expert technicians.</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="time">Preferred Time:</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Service Type:</label>
+                    <select id="service" name="service" required>
+                        <option value="repair">Refrigerator Repair</option>
+                        <option value="maintenance">Routine Maintenance</option>
+                        <option value="installation">New Installation</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Details:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                
+                <button type="submit">Schedule Now</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Refrigerator Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
