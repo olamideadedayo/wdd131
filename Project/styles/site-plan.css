@@ -8,10 +8,16 @@ body {
   padding: 0;
 }
 
-header, footer {
+header {
   background-color: #0060fa;
   color: white;
   text-align: center;
+  padding: 1em 0;
+}
+
+footer {
+  background-color: #0060fa;
+  color: white;
   padding: 1em 0;
 }
 
